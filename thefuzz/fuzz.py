@@ -65,7 +65,7 @@ def partial_ratio(s1, s2):
 
     maximum_score = max(scores)
     maximum_score_index = scores.index(maximum_score)
-    return utils.intr(100 * max(scores)), blocks[maximum_score_index]
+    return utils.intr(100 * maximum_score), blocks[maximum_score_index]
 
 
 ##############################

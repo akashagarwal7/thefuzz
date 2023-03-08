@@ -18,13 +18,13 @@ def open_file(fname):
 
 
 setup(
-    name='thefuzz',
+    name='akashagarwal7_thefuzz',
     version=__version__,
-    author='Adam Cohen',
-    author_email='adam@seatgeek.com',
-    packages=['thefuzz'],
+    author='Akash Agarwal',
+    author_email='agarwal.akash333@gmail.com',
+    packages=['akashagarwal7_thefuzz'], # Symbolic link to thefuzz to distinguish from the original package.
     extras_require={'speedup': ['python-levenshtein>=0.12']},
-    url='https://github.com/seatgeek/thefuzz',
+    url='https://github.com/akashagarwal7/thefuzz',
     license="GPLv2",
     classifiers=[
         'Intended Audience :: Developers',
@@ -38,7 +38,7 @@ setup(
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3 :: Only',
     ],
-    description='Fuzzy string matching in python',
+    description='Fuzzy string matching in python, forked from SeatGeek\'s thefuzz',
     long_description=open_file('README.rst').read(),
     zip_safe=True,
 )
